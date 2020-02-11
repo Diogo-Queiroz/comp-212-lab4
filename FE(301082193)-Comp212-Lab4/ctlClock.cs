@@ -29,7 +29,7 @@ namespace FE_301082193__Comp212_Lab4
             InitializeComponent();
         }
 
-        protected void timer1_Tick(object sender, EventArgs e)
+        protected virtual void timer1_Tick(object sender, EventArgs e)
         {
             lblDisplay.Text = DateTime.Now.ToLongTimeString();
         }
